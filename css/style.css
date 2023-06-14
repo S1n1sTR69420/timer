@@ -1,0 +1,83 @@
+﻿body {
+    background-color: #E3FDFD;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.topbar {
+    background: #71C9CE;
+    padding: 2em;
+    text-decoration: none;
+    margin-top: -0.6%;
+    margin-left: -0.6%;
+    position: relative;
+    width: 1800px;
+    align-items: center;
+    display: flex;
+    font-family: sans-serif;
+}
+
+.networktime {
+    font-size: 60px;
+    font-family: 'Bell MT';
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+}
+
+.nameInput {
+    padding: 12px 20px;
+    display: block;
+    border: 0.5px solid #71C9CE;
+    box-sizing: border-box;
+    border-radius: 25px;
+    width: 30%;
+    font-size: 20px;
+    margin: auto;
+    margin-top: 120px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.timer {
+    text-align: center;
+}
+
+#time {
+    font-size: 48px;
+    color: #71C9CE;
+}
+
+#startStopButton {
+    font-size: 24px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+}
+
+    #startStopButton.stop {
+        background-color: red;
+    }
+
+    #startStopButton:hover {
+        cursor: pointer;
+    }
+
+#saveButton {
+    font-size: 24px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+}
+
+    #saveButton:hover {
+        cursor: pointer;
+    }
